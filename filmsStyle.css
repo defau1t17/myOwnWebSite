@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+}
+
+.webHeader {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(255, 111, 59);
+    position: fixed;
+    opacity: 0.85;
+    z-index: 5;
+}
+
+.components {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo {
+    width: 70px;
+    margin-left: 40px;
+}
+
+.headList {
+    list-style-type: none;
+    font-size: 25px;
+    margin: 40px;
+}
+
+.webSiteLogo {
+    width: 10%;
+}
+
+.headerList {
+    width: 55%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerLoginWindow {
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderListOfTools {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonHeaderLink {
+    text-decoration: none;
+}
+
+.userA {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+}
+
+.linkHead {
+    text-decoration: none;
+    color: black;
+}
+
+.userLoginButton {
+    width: 125px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid black;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.mainBlock {
+    width: 100%;
+    height: 600px;
+    padding-top: 120px;
+    background-color: rgb(20, 20, 20);
+}
+
+.comp {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.previewOfFilm {
+    width: 40%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comp2 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.setF {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.TitleArea {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.filmImg {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.filmSet {
+    width: 20%;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+}
+
+.setList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.informationAboutFilm {
+    width: 80%;
+    height: 560px;
+    display: flex;
+    justify-content: start;
+}
+
+.infoList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.filmTitle{
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    font: 800;
+    color: whitesmoke;
+}
+
+
+.settings {
+    list-style-type: none;
+    text-decoration: underline whitesmoke ;
+    font-size: 14px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titles {
+    list-style-type: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+   color: white;
+}
+
+
+.filmBlock {
+    width: 100%;
+    height: 650px;
+    background-color: rgb(20, 20, 20);
+}
+
+.film {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
